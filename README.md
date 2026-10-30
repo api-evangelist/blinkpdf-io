@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-blinkpdf-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://blinkpdf.io/
+BlinkPDF.io provides a simple API to convert, merge, split, and manipulate PDF documents programmatically. Developers can integrate PDF processing into web, mobile, or desktop applications without needing heavy client-side libraries. Features include PDF to image conversion, OCR support, watermarking, encryption, and batch processing, all accessible via RESTful endpoints with JSON responses. The service emphasizes security, scalability, and ease of use, offering tiered pricing and comprehensive documentation for quick onboarding.
+
+**Areas:** PDF · DocumentProcessing · API · SaaS · Automation
+
+## blinkpdf-io on APIs.io
+
+Everything profiled for blinkpdf-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blinkpdf-io/](https://apis.io/providers/blinkpdf-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [blinkpdf-io Account API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-account-api/) — The authenticated caller account and billing tier
+- [blinkpdf-io Compose API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-compose-api/) — Canvas sheets and paginated stream sections composed into a PDF
+- [blinkpdf-io Discovery API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-discovery-api/) — Machine-readable API entry point
+- [blinkpdf-io Docs API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-docs-api/) — The Docs API from blinkpdf-io — 1 operation(s) for docs.
+- [blinkpdf-io Fill API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-fill-api/) — Fill an AcroForm by name
+- [blinkpdf-io Fonts API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-fonts-api/) — Hosted font catalog and Google Fonts capability discovery
+- [blinkpdf-io Health API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-health-api/) — Liveness and readiness probes
+- [blinkpdf-io Layout Document API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-layoutdocument-api/) — Layout documents — a Markdown body confined to one writing rect on every page, with caller-positioned text, images, and calibration frames, an optional…
+- [blinkpdf-io Pages API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-pages-api/) — Merge, split, reorder, and rotate the pages of existing PDFs
+- [blinkpdf-io Read API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-read-api/) — Read a native PDF: its text in reading order as Markdown and with the box of every line, its headings, lists, and tables, and the values of its form fields
+- [blinkpdf-io Render API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-render-api/) — Markdown-to-PDF rendering
+- [blinkpdf-io Sandwich Document API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-sandwichdocument-api/) — Sandwich documents — a first-page header (logo, professional identity, subject/context data) and a last-page footer (signature, name) wrapping a Markdown body
+- [blinkpdf-io Stamp API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-stamp-api/) — Stamp text, images, and codes onto the pages of an existing PDF, over or under its content
+- [blinkpdf-io Templates API](https://apis.io/apis/blinkpdf-io/blinkpdf-io-templates-api/) — Stored AcroForm template library
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Blinkpdf Io Agentic Access](https://apis.io/agentic-access/blinkpdf-io/blinkpdf-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AcroForm.Definition](https://apis.io/schemas/blinkpdf-io/blinkpdf-io-acro-form-definition/)
+- [AcroForm.Inspection](https://apis.io/schemas/blinkpdf-io/blinkpdf-io-acro-form-inspection/)
+- [Compose.ValidateOk](https://apis.io/schemas/blinkpdf-io/blinkpdf-io-compose-validate-ok/)
+- [Render.ValidateOk](https://apis.io/schemas/blinkpdf-io/blinkpdf-io-render-validate-ok/)
+- [Template.layout-document.Body](https://apis.io/schemas/blinkpdf-io/blinkpdf-io-template-layout-document-body/)
+- [Template.sandwich-document.Body](https://apis.io/schemas/blinkpdf-io/blinkpdf-io-template-sandwich-document-body/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Blinkpdf Io Context](https://apis.io/jsonld/blinkpdf-io/blinkpdf-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [blinkpdf-io API Rules](https://apis.io/rules/blinkpdf-io/blinkpdf-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blinkpdf Io Authentication](https://apis.io/security/blinkpdf-io/blinkpdf-io-authentication/)
+- [Blinkpdf Io Domain Security](https://apis.io/security/blinkpdf-io/blinkpdf-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blinkpdf Io Plans Pricing](https://apis.io/plans/blinkpdf-io/blinkpdf-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Blinkpdf Io Rate Limits](https://apis.io/rate-limits/blinkpdf-io/blinkpdf-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blinkpdf.io/)
+- [Documentation](https://docs.blinkpdf.io/)
+- [Getting started](https://docs.blinkpdf.io/quickstart)
+- [API reference](https://api.blinkpdf.io/docs)
+- [Pricing](https://blinkpdf.io/pricing/)
+- [Terms of service](https://blinkpdf.io/terms-of-service/)
+- [Privacy policy](https://blinkpdf.io/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 58.7** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.4 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 78.7** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blinkpdf-io/](https://apis.io/providers/blinkpdf-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for blinkpdf-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blinkpdf-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
